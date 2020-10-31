@@ -1,0 +1,22 @@
+export default [
+    { path: '/dashboard', component: require('./components/Dashboard.vue').default },
+    { path: '/profile', component: require('./components/Profile.vue').default },
+    { path: '/developer', component: require('./components/Developer.vue').default },
+    { path: '/users', component: require('./components/Users.vue').default },
+    { path: '/products', component: require('./components/product/Products.vue').default },
+    { path: '/product/tag', component: require('./components/product/Tag.vue').default },
+    { path: '/product/size', component: require('./components/product/Size.vue').default },
+    { path: '/product/category', component: require('./components/product/Category.vue').default },
+    { path: '/product/sub_category', component: require('./components/product/SubCategory.vue').default },
+    { path: '/social_link', component: require('./components/SocialLink.vue').default },
+    { path: '/faq', component: require('./components/FAQ.vue').default },
+    { path: '*', component: require('./components/NotFound.vue').default },
+    { path: '/client', component: require('./components/Client.vue').default },
+    { path: '/banner', component: require('./components/Banner.vue').default },
+    { path: '/video', component: require('./components/Video.vue').default },
+    { path: '/gallery', component: require('./components/Gallery.vue').default },
+    { path: '/slider', component: require('./components/Slider.vue').default },
+    { path: '/company', component: require('./components/Company.vue').default },
+    { path: '/footer', component: require('./components/Footer.vue').default },
+
+];
